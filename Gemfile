@@ -2,8 +2,9 @@ source 'https://rubygems.org'
 
 gem "jekyll"
 gem 'nokogiri'
-gem "rack", ">= 2.1.4"
+gem 'rack', '~> 2.0.1'
 gem 'rspec'
+gem "rack-jekyll"
 
 
 group :jekyll_plugins do
